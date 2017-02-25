@@ -12,11 +12,6 @@ var Language = (function(oldLanguage){
 		"stronger": "mas fuerte"
 	};
 
-oldLanguage.setUserInput = function(userInput){
-	var newPhrase = userInput.split(" ");
-	return newPhrase;
-};
-
 oldLanguage.setGerman = function(myArray){
 	var translated = [];
 	for (var x = 0; x < myArray.length; x++){
