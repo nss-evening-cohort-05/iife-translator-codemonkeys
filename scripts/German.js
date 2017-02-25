@@ -16,7 +16,7 @@ oldLanguage.setGerman = function(myArray){
 	var translated = [];
 	for (var x = 0; x < myArray.length; x++){
 		var keyValue = myArray[x];
-		translated.push(germanWords.[keyValue]);
+		translated.push(germanWords[keyValue]);
 	};
 	return translated;
 };
