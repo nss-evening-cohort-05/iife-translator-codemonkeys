@@ -2,7 +2,7 @@ var Language = (function(oldLanguage){
 
 	var germanWords = {
 		//That which doesn't kill me makes me stronger.
-		//Lo que no me mata me hace más fuerte
+		//Lo que no me mata me hace más fuerte 
 		"That": "Lo",
 		"which": "que",
 		"doesn't": "no",
