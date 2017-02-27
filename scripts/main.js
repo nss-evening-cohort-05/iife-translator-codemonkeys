@@ -6,7 +6,7 @@ button.addEventListener("click", function(e){
 	var italianTranslated = Language.setItalian(myArray);
 	var spanishTranslated = Language.setSpanish(myArray);
 	var germanTranslated = Language.setGerman(myArray);
-	// var frenchTranslated = Language.setFrench(myArray);
+	var frenchTranslated = Language.setFrench(myArray);
 	var esperantoTranslated = Language.setEsperanto(myArray);
 	var output = document.getElementById("result");
 	var selections = document.getElementById("radios").childNodes;
