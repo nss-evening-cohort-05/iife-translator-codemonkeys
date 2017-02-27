@@ -4,7 +4,7 @@ button.addEventListener("click", function(e){
 	var userInput = document.getElementById("enter-text").value;
 	var myArray = Language.setUserInput(userInput);
 	var italianTranslated = Language.setItalian(myArray);
-	// var spanishTranslated = Language.setSpanish(myArray);
+	var spanishTranslated = Language.setSpanish(myArray);
 	var germanTranslated = Language.setGerman(myArray);
 	// var frenchTranslated = Language.setFrench(myArray);
 	var esperantoTranslated = Language.setEsperanto(myArray);
