@@ -1,5 +1,5 @@
 var Language = (function(oldLanguage){
-	var italian = {"that":"ci&ograve;", "which":"che", "doesn't":"non mi", "kill":"uccide mi", "makes": "rende", "me":"pi&ugrave;", "stronger":"forte"};
+	var italian = {"that":"ci&ograve;", "which":"che", "doesn't":"non", "kill":"uccide", "makes": "rende", "me":"mi", "stronger":"pi&ugrave; forte"};
 	
 	oldLanguage.setUserInput = function(userInput){
 	var newPhrase = userInput.split(" ");
