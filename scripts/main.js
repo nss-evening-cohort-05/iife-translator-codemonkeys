@@ -8,6 +8,7 @@ button.addEventListener("click", function(e){
 	var germanTranslated = Language.setGerman(myArray);
 	var frenchTranslated = Language.setFrench(myArray);
 	var esperantoTranslated = Language.setEsperanto(myArray);
+	var millenialTranslated = Language.setMillenial(myArray);
 	var output = document.getElementById("result");
 	var selections = document.getElementById("radios").childNodes;
 	for (var y = 0; y<selections.length; y++){
@@ -18,10 +19,12 @@ button.addEventListener("click", function(e){
 				output.innerHTML = spanishTranslated.toString().replace(/,/g, " ");
 			} else if (selections[y].value==="german"){
 				output.innerHTML = germanTranslated.toString().replace(/,/g, " ");
-			}else if (selections[y].value==="french"){
+			} else if (selections[y].value==="french"){
 				output.innerHTML = frenchTranslated.toString().replace(/,/g, " ");
-			}else if (selections[y].value==="esperanto"){
+			} else if (selections[y].value==="esperanto"){
 				output.innerHTML = esperantoTranslated.toString().replace(/,/g, " ");
+			} else if (selections[y].value==="millenial"){
+				output.innerHTML = millenialTranslated.toString().replace(/,/g, " ");
 			}
 		}
 	}
