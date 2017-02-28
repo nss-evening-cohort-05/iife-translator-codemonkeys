@@ -1,4 +1,3 @@
-console.log("lang ready");
 var Language = (function(oldLang) {
 
   // Private object variable to store the words of english phrase as keys and translated words as values
