@@ -28,6 +28,35 @@ Represent a small bilingual lexicon as a Javascript object. Each member of the t
 #### Pre-planning design of function structures
 ![pre-planning discussion](https://raw.githubusercontent.com/nss-evening-cohort-05/iife-translator-codemonkeys/master/iifewhiteboard.jpg)
 
+#### Augmenter example:
+```
+var Language = (function(oldLanguage){
+	var italian = {
+		"that":"ci&ograve;",
+		"which":"che",
+		"doesn't":"non",
+		"kill":"uccide",
+		"makes": "rende",
+		"me":"mi",
+		"stronger":"pi&ugrave; forte"};
+	
+	oldLanguage.setUserInput = function(userInput){
+	var newPhrase = userInput.split(" ");
+	return newPhrase;
+};
+	oldLanguage.setItalian = function(array){
+		var translated = [];
+		for (var i = 0; i<array.length; i++) {
+			var keyValue = array[i];
+			translated.push(italian[keyValue])
+		}
+		return translated;
+	}
+	return oldLanguage;
+})(Language || {});
+
+```
+
 ######HOW TO RUN:
 ```
 1. git clone https://github.com/nss-evening-cohort-05/iife-translator-codemonkeys
