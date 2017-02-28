@@ -1,3 +1,6 @@
+![CodeMonkeys Language Translator logo](https://raw.githubusercontent.com/nss-evening-cohort-05/iife-translator-codemonkeys/master/images/babblemonkey%20banner.png)
+
+
 # Language Translator
 
 Represent a small bilingual lexicon as a Javascript object. Each member of the team will build a JavaScript module that will convert text entered into an input field to the language that they choose.
